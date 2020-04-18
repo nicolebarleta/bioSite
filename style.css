@@ -1,0 +1,96 @@
+html{
+  font-family: 'Sen', Verdana, Helvetica, serif;
+}
+body{
+  background-color: #1B1817;
+  color: #FFEEE4;
+}
+#header{
+font-weight: 400;
+font-size: 4.209em;
+}
+#menu{
+  text-align: center;
+  font-size: 2.369em
+}
+a:link {
+  text-decoration: none;
+  color: #FFEEE4;
+}
+a:visited {
+  color: #fa8687;
+}
+a:hover{
+  color: #eb5d25;
+}
+#info{
+  font-size: 1.777em;
+  text-align: center;
+}
+
+#info img{
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+
+#arts{
+  font-size: 1.777em;
+  float: left;
+}
+
+#arts img.sora{
+  width: 47%;
+  align: right;
+  margin-top: 5px;
+}
+
+#arts img.roxas{
+  width: 30%;
+  align: left;
+  margin-top: 10px;
+}
+#arts img.alex{
+  width: 40%;
+  align: bottom;
+  margin-top: 10px;
+}
+#arts img.anime{
+  width: 30%;
+  margin-top: 5px;
+}
+
+#pets{
+  font-size: 1.777em;;
+  float: left;
+
+}
+#pets img.tigger{
+  width: 47%;
+  align: right;
+  margin-top: 5px;
+}
+
+#pets img.elsa{
+  width: 30%;
+  align: left;
+  margin-top: 10px;
+}
+
+#videos{
+  font-size: 185%;
+  position: absolute;
+  margin-top: 170%;
+
+}
+#videos img.alexvid{
+  width: 20%;
+  margin-top: 10px;
+}
+
+footer{
+  position: absolute;
+  margin-top: 300%;
+}
