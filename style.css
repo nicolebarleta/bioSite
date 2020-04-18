@@ -28,7 +28,7 @@ a:hover{
   text-align: center;
 }
 
-#info img{
+#info img.info{
   width: 30%;
   float: left;
   margin-right: 10px;
