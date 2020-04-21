@@ -1,0 +1,81 @@
+html{
+  font-family: 'Sen', Verdana, Helvetica, serif;
+}
+body{
+  background-color: #1B1817;
+  color: #FFEEE4;
+}
+
+#header {
+
+}
+
+#menu{
+  text-align: left;
+  font-size: 2.369em
+
+}
+
+a:link {
+  text-decoration: none;
+  color: #FFEEE4;
+}
+a:visited {
+  color: #fa8687;
+}
+a:hover{
+  color: #eb5d25;
+}
+#info{
+  font-size: 1.777em;
+  text-align: center;
+}
+
+#info img.info{
+  width: 30%;
+  float: center;
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+
+#arts{
+  font-size: 1.777em;
+  float: left;
+}
+#arts h2{
+  text-align: center;
+}
+
+#arts img{
+  width: 30%;
+}
+
+
+#pets{
+  font-size: 1.777em;;
+  float: left;
+
+}
+#pets img.tigger{
+  width: 47%;
+  margin-top: 5px;
+}
+
+#pets img.elsa{
+  width: 30%;
+  margin-top: 10px;
+}
+
+#videos{
+  font-size: 185%;
+  position: absolute;
+
+}
+#videos img.alexvid{
+  width: 20%;
+}
+
+footer{
+  position: absolute;
+}
