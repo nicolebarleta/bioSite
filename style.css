@@ -1,0 +1,91 @@
+html{
+  font-family: 'Sen', Verdana, Helvetica, serif;
+  align-content: center;
+}
+body{
+  background-color: #1B1817;
+  color: #FFEEE4;
+}
+img {
+  border-radius: 15px;
+}
+
+
+#header {
+
+}
+
+#menu{
+  text-align: left;
+  font-size: 2.369em
+
+}
+
+a:link {
+  text-decoration: none;
+  color: #FFEEE4;
+}
+a:visited {
+  color: #fa8687;
+}
+a:hover{
+  color: #eb5d25;
+}
+#info{
+  font-size: 1.777em;
+  text-align: center;
+}
+
+#info img{
+  width: 40%;
+}
+
+
+#arts{
+  font-size: 1.777em;
+  text-align: center;
+}
+
+#arts img{
+  width: 30%;
+}
+
+
+
+
+#cats{
+  font-size: 1.777em;
+  text-align: center;
+}
+
+#cats img{
+  width: 30%;
+
+}
+
+#videos{
+  font-size: 1.777em;
+  text-align: center;
+
+}
+
+#videos img{
+width: 70%;
+}
+
+#message h2{
+  font-size: 1.777em;
+  color: #FFEEE4;
+
+}
+#message{
+  color: #fa8687;
+  font-size: 1.5em;
+}
+
+#message p.mom{
+  font-style: italic;
+}
+footer{
+  position: absolute;
+}
