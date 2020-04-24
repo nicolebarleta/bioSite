@@ -1,17 +1,32 @@
 html{
   font-family: 'Sen', Verdana, Helvetica, serif;
-  align-content: center;
 }
 body{
-  background-color: #1B1817;
+  margin: 0;
+  padding: 0;
+  background: #1B1817;
   color: #FFEEE4;
+}
+nav{
+  width: 100%;
+  overflow:auto;
+
+}
+ul{
+  padding:0;
+  margin: 15px 0 0 170px;
+  list-style: none;
+}
+li {
+  float: left;
 }
 img {
   border-radius: 15px;
 }
 
 
-#header {
+#logo img{
+position: absolute;
 
 }
 
@@ -20,17 +35,21 @@ img {
   font-size: 2.369em
 
 }
-
-a:link {
+nav a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
   text-decoration: none;
+  font-family: Arial;
   color: #FFEEE4;
+  text-align: center;
 }
-a:visited {
-  color: #fa8687;
+nav a:hover {
+  background: #fa8687;
+  transition: 0.5s;
+  text-transform: uppercase;
 }
-a:hover{
-  color: #eb5d25;
-}
+
 #info{
   font-size: 1.777em;
   text-align: center;
