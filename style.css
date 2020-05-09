@@ -72,6 +72,7 @@ nav a:hover {
   margin: 40px;
   padding: 50px;
   border: solid 5px;
+
 }
 
 #introduction img{
@@ -93,14 +94,17 @@ nav a:hover {
 
 #artworks h1{
   text-align: center;
-  border: solid 10px;
+
 }
 
 #artworks{
   font-size: 1.5em;
-  margin: 10px;
   float: left;
+  margin-top: 50px;
+  margin: 40px;
   padding: 50px;
+  border: solid 5px;
+
 }
 
 #artworks img{
@@ -131,13 +135,14 @@ nav a:hover {
 
 
 
-
 /* Start of cat styles */
 #cats{
   font-size: 1.5em;
   float: left;
-  margin: 10px;
+  margin-top: 50px;
+  margin: 40px;
   padding: 50px;
+  border: solid 5px;
 
 }
 
@@ -147,7 +152,6 @@ nav a:hover {
 
 #cats h1{
   text-align: center;
-  border: solid 10px;
 
 }
 
@@ -164,61 +168,75 @@ nav a:hover {
 /*End of cat styles*/
 
 
-
 /* Start of videos styles */
-#videos h1{
-  text-align: center;
-  border: solid 10px;
-}
-
 #videos{
   font-size: 1.5em;
-  margin: 10px;
   float: left;
+  margin-top: 50px;
+  margin: 40px;
   padding: 50px;
+  border: solid 5px;
+
 }
 
 #videos img{
   width: 30%;
-  padding: 5px;
+}
+
+#videos h1{
+  text-align: center;
 
 }
 
-#videos span{
-  font-weight: 700;
-  font-size: 1em;
-  color: #fa8687;
+#videos a{
+    text-decoration: none;
+    float: right;
+    color: #fa8687;
 }
-
 #videos p{
   margin-left: 150px;
   margin-right: 150px;
 
 }
 
-#videos a{
-      text-decoration: none;
-      float: right;
-      color: #fa8687;
-      font-size: 1em;
+
+figure{
+  float: none;
 }
+
 /*End of videos styles*/
 
 
 
 
-/*Start of message styles*/
-
-#message h1{
-  font-size: 1.777em;
-  color: #FFEEE4;
-
-}
-
-#message{
-  color: #fa8687;
+/* Start of notes styles */
+#notes{
   font-size: 1.5em;
+  float: left;
+  margin-top: 50px;
+  margin: 40px;
+  padding: 50px;
+  border: solid 5px;
+
 }
 
+#notes img{
+  width: 30%;
+}
 
-/*End of message styles*/
+#notes h1{
+  text-align: center;
+
+}
+
+#notes a{
+    text-decoration: none;
+    float: right;
+    color: #fa8687;
+}
+#notes p{
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+/*End of cat styles*/
