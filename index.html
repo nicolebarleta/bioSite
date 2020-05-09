@@ -1,242 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Biography: Alex Resendiz</title>
 
-/*The Html file will have sen font-family and a justify text align.*/
-html{
-  font-family: 'Sen', Verdana, Helvetica, serif;
-  text-align: justify;
-  text-justify: inter-word;
-}
-/*Body will have dark background*/
-body{
-  margin: 5px;
-  padding: 0;
-  background: #1B1817;
-  color: #FFEEE4;
-}
+  <meta charset="utf-8"/>
 
-img {
-  border-radius: 15px;
-}
+<!-- viewport for mobile devices -->
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* style for navigation */
-#navigation{
-  margin-top: 20px;
-}
+<!-- Link to stylesheet file -->
+  <link rel="stylesheet" href="style.css">
 
-#navigation img{
-position: absolute;
-margin-left: 40px;
+<!-- Link to google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+<!-- Favicon icon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+</head>
 
-}
+<body>
 
-nav{
-  width: 100%;
-  overflow:auto;
-}
-ul{
-  padding:0;
-  margin: 15px 0 0 200px;
-  list-style: none;
+<div id="navigation">
+  <img src="images/logo.png">
+  <!-- Navigation bar -->
+  <nav>
+    <ul>
+    <li><a href="#artworks">Arts</a></li>
+      <li><a href="#cats">Cats</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#notes">Notes</a></li>
+    </ul>
+ </nav>
+</div>
+<!--div end tag of navigation-->
 
-}
-li {
-  float: left;
-  font-weight: 400;
-  font-size: 1.5em;
+<div id="introduction">
+  <img src="images/cover.jpg" class= "info" alt="cover_photo">
+  <h2>The Graphic Artist</h2>
+  <p>
+She is a wonderful daughter and a good friend to all of us, her loving personality is what made me appreciate her creativity even more.
+Her talent in creating artworks amazes me; approximately it will only take her 5 - 10 minutes to draw someone's face, into an anime character.
+And as one of her loved ones, I'm lucky enough to receive her personalized cards on any occasion.
+This page will show some artworks and videos that she produced. And also some snippets of her life as a cat mom.
+  <p>
+<!--div end tag of information-->
+</div>
 
-}
+<!--div start tag of artworks-->
+<div id="artworks">
 
-nav a {
-  width: 100px;
-  display: block;
-  padding: 20px 15px;
-  text-decoration: none;
-  font-family: Arial;
-  color: #FFEEE4;
-  text-align: center;
-}
-nav a:hover {
-  background: #fa8687;
-  transition: 0.5s;
-  text-transform: uppercase;
-}
-/*end of navigation style*/
-
-
-/*Start of introduction style */
-#introduction{
-  font-size: 1.5em;
-  float: left;
-  margin-top: 50px;
-  margin: 40px;
-  padding: 50px;
-  border: solid 5px;
-
-}
-
-#introduction img{
-  width: 40%;
-  float: left;
-  margin-right: 25px;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  border: 5px solid;
-  border-color: #fa8687;
-
-}
-
-/* End of introduction style **/
+<h1>ARTS</h1>
+<p>
+<span>  At the age of 10, </span> She dedicated her time in learning how to draw her favorite anime characters.<br><br>
+<span>  At the age of 13, </span> She started selling her arts as poster, bookmarks and personalized caricatures.<br><br>
+<span>  At the age of 15, </span> She joined a graphic design program in an organization called after school matters.<br><br>
+<span>  At the age of 17, </span> She received recognition for the best cover design in 2009 from anime central midwest and her design got featured in the convention's magazine.<br><br>
+<figure>
+  <figure align="center">
+  <img src = "images/won.jpg" alt="cover design">
+  <figcaption align="center"> Best Cover Design 2009 <br> (Anime Central)</figcaption>
+</figure><br><br>
+</p>
 
 
 
-/*Start of styles for artworks*/
+<h1>ARTWORKS GALLERY</h1>
+<figure align="center">
+  <img src="images/bleach.jpg" class="bleach" alt=bleach"">
+  <img src="images/sora.jpg" class="sora" alt="sora">
+  <img src="images/hp.jpg" class="hp" alt="harry potter">
+</figure>
 
-#artworks h1{
-  text-align: center;
+<figure align="center">
+  <img src="images/roxas.jpg" class="roxas" alt="roxas">
+  <img src="images/ed.jpg" class="ed" alt="ed">
+  <img src="images/miku.jpg" class="miku" alt="miku">
+</figure>
 
-}
-
-#artworks{
-  font-size: 1.5em;
-  float: left;
-  margin-top: 50px;
-  margin: 40px;
-  padding: 50px;
-  border: solid 5px;
-
-}
-
-#artworks img{
-  width: 30%;
-  padding: 5px;
-
-}
-
-#artworks span{
-  font-weight: 700;
-  font-size: 1em;
-  color: #fa8687;
-}
-
-#artworks p{
-  margin-left: 150px;
-  margin-right: 150px;
-
-}
-
-#artworks a{
-      text-decoration: none;
-      float: right;
-      color: #fa8687;
-      font-size: 1em;
-}
-/* End of artworks styles */
+<figure align="center">
+  <img src="images/fma.jpg" class="fma" alt="full metal">
+  <img src="images/sos.jpg" class="sos" alt="sos">
+  <img src="images/anime.jpg" class="anime" alt="anime">
+</figure>
+<!--div end tag of artworks-->
+<a href="#navigation">back to top</a>
+</div>
 
 
+<!--div start tag of cats-->
+<div id="cats">
 
-/* Start of cat styles */
-#cats{
-  font-size: 1.5em;
-  float: left;
-  margin-top: 50px;
-  margin: 40px;
-  padding: 50px;
-  border: solid 5px;
+<h1>CATS</h1>
+<p>
+Her love for her pets are so unconditional. She gives time to them 24/7. She wakes up very early just to feed the cats and she recently adopted a kitten from the shelter.
+Alex makes sure to play with them every night and will always look for best options for her pets to live the most comfortable life.
+</p>
+<!--div end tag of cats-->
+</div>
 
-}
+<!--div start tag of videos-->
+<div id="videos">
 
-#cats img{
-  width: 30%;
-}
+<h1>Videos</h1>
+<p>
+I love how she edit her videos and produce her videos with finalcut.
+</p>
 
-#cats h1{
-  text-align: center;
+<figure>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HdCZXuv9WZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<figure class="right">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BfwiUYOGI2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<figure>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/hfC10ZPxOHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<figure class="right">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SdDBEO1Q064" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
 
-}
+<!--div end tag of videos-->
+</div>
 
-#cats a{
-    text-decoration: none;
-    float: right;
-    color: #fa8687;
-}
-#cats p{
-  margin-left: 150px;
-  margin-right: 150px;
+<!--div start tag of notes-->
+<div id="notes">
 
-}
-/*End of cat styles*/
+<h1>MESSAGES</h1>
+<p>
+This posrtion will have messages from family and friends :)
+</p>
+<!--div end tag of notes-->
+</div>
 
-
-/* Start of videos styles */
-#videos{
-  font-size: 1.5em;
-  float: left;
-  margin-top: 50px;
-  margin: 40px;
-  padding: 50px;
-  border: solid 5px;
-
-}
-
-#videos img{
-  width: 30%;
-}
-
-#videos h1{
-  text-align: center;
-
-}
-
-#videos a{
-    text-decoration: none;
-    float: right;
-    color: #fa8687;
-}
-#videos p{
-  margin-left: 150px;
-  margin-right: 150px;
-
-}
-
-
-figure{
-  float: none;
-}
-
-/*End of videos styles*/
-
-
-
-
-/* Start of notes styles */
-#notes{
-  font-size: 1.5em;
-  float: left;
-  margin-top: 50px;
-  margin: 40px;
-  padding: 50px;
-  border: solid 5px;
-
-}
-
-#notes img{
-  width: 30%;
-}
-
-#notes h1{
-  text-align: center;
-
-}
-
-#notes a{
-    text-decoration: none;
-    float: right;
-    color: #fa8687;
-}
-#notes p{
-  margin-left: 150px;
-  margin-right: 150px;
-
-}
-/*End of notes styles*/
+</body>
+</html>
