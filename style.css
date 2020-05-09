@@ -1,42 +1,52 @@
+
+/*The Html file will have sen font-family and a justify text align.*/
 html{
   font-family: 'Sen', Verdana, Helvetica, serif;
   text-align: justify;
   text-justify: inter-word;
 }
+/*Body will have dark background*/
 body{
   margin: 5px;
   padding: 0;
   background: #1B1817;
   color: #FFEEE4;
 }
+
+img {
+  border-radius: 15px;
+}
+
+
+/* style for navigation */
+#navigation{
+  margin-top: 20px;
+}
+
+#navigation img{
+position: absolute;
+margin-left: 40px;
+
+
+}
+
 nav{
   width: 100%;
   overflow:auto;
 }
 ul{
   padding:0;
-  margin: 15px 0 0 170px;
+  margin: 15px 0 0 200px;
   list-style: none;
+
 }
 li {
   float: left;
-}
-
-img {
-  border-radius: 15px;
-}
-
-#logo img{
-position: absolute;
-margin-left: 10px;
+  font-weight: 400;
+  font-size: 1.5em;
 
 }
 
-#menu{
-  text-align: left;
-  font-size: 2.369em
-
-}
 nav a {
   width: 100px;
   display: block;
@@ -51,83 +61,164 @@ nav a:hover {
   transition: 0.5s;
   text-transform: uppercase;
 }
+/*end of navigation style*/
 
-#info{
-  font-size: 1.777em;
+
+/*Start of introduction style */
+#introduction{
+  font-size: 1.5em;
   float: left;
-  margin-top: 20px;
-  padding-bottom: 100px;
+  margin-top: 50px;
+  margin: 40px;
+  padding: 50px;
+  border: solid 5px;
 }
 
-#info img{
+#introduction img{
   width: 40%;
   float: left;
   margin-right: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 40px;
   border: 5px solid;
   border-color: #fa8687;
+
 }
 
+/* End of introduction style **/
 
-/*Styles for arts portion*/
-#arts{
-  font-size: 1.777em;
-  margin-top: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
-  float: left;
-}
-#arts h2{
+
+
+/*Start of styles for artworks*/
+
+#artworks h1{
   text-align: center;
+  border: solid 10px;
 }
-#arts img{
+
+#artworks{
+  font-size: 1.5em;
+  margin: 10px;
+  float: left;
+  padding: 50px;
+}
+
+#artworks img{
   width: 30%;
   padding: 5px;
-}
-
-.flex-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
 
 }
 
+#artworks span{
+  font-weight: 700;
+  font-size: 1em;
+  color: #fa8687;
+}
+
+#artworks p{
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+#artworks a{
+      text-decoration: none;
+      float: right;
+      color: #fa8687;
+      font-size: 1em;
+}
+/* End of artworks styles */
 
 
+
+
+/* Start of cat styles */
 #cats{
-  font-size: 1.777em;
-  text-align: center;
+  font-size: 1.5em;
+  float: left;
+  margin: 10px;
+  padding: 50px;
+
 }
 
 #cats img{
   width: 30%;
+}
 
+#cats h1{
+  text-align: center;
+  border: solid 10px;
+
+}
+
+#cats a{
+    text-decoration: none;
+    float: right;
+    color: #fa8687;
+}
+#cats p{
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+/*End of cat styles*/
+
+
+
+/* Start of videos styles */
+#videos h1{
+  text-align: center;
+  border: solid 10px;
 }
 
 #videos{
-  font-size: 1.777em;
-
-
+  font-size: 1.5em;
+  margin: 10px;
+  float: left;
+  padding: 50px;
 }
 
 #videos img{
-width: 70%;
+  width: 30%;
+  padding: 5px;
+
 }
 
-#message h2{
+#videos span{
+  font-weight: 700;
+  font-size: 1em;
+  color: #fa8687;
+}
+
+#videos p{
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+#videos a{
+      text-decoration: none;
+      float: right;
+      color: #fa8687;
+      font-size: 1em;
+}
+/*End of videos styles*/
+
+
+
+
+/*Start of message styles*/
+
+#message h1{
   font-size: 1.777em;
   color: #FFEEE4;
 
 }
+
 #message{
   color: #fa8687;
   font-size: 1.5em;
 }
 
-#message p.mom{
-  font-style: italic;
-}
-footer{
-  position: absolute;
-}
+
+/*End of message styles*/
