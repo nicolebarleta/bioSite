@@ -145,8 +145,8 @@ nav a:hover {
   font-size: 1.5em;
   float: left;
   margin-top: 50px;
-  margin: 20px;
-  padding: 30px;
+  margin: 40px;
+  padding: 50px;
   border: solid 5px;
 
 }
@@ -162,8 +162,8 @@ nav a:hover {
 
 
 #cats p{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
 
 }
 
