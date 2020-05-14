@@ -13,7 +13,6 @@ body{
 
 img {
   border-radius: 15px;
-  
 }
 
 
@@ -83,9 +82,6 @@ nav a:hover {
   margin-right: 25px;
   margin-bottom: 20px;
   margin-top: 40px;
-  border: 5px solid;
-  border-color: #f196b9;
-
 }
 
 #introduction span{
@@ -110,15 +106,11 @@ nav a:hover {
   margin: 40px;
   padding: 50px;
   border: solid 5px;
-
 }
 
 #artworks img{
   width: 30%;
   padding: 5px;
-  border: 5px solid;
-  border-color: #f196b9;
-
 }
 
 #artworks span{
@@ -130,7 +122,6 @@ nav a:hover {
 #artworks p{
   margin-left: 150px;
   margin-right: 150px;
-
 }
 
 #artworks a{
@@ -156,8 +147,6 @@ nav a:hover {
 
 #cats img{
   width: 30%;
-  border: 5px solid;
-  border-color: #f196b9;
 }
 
 #cats h1{
