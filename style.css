@@ -116,6 +116,7 @@ nav a:hover {
 #artworks img{
   width: 30%;
   padding: 5px;
+  border: 5px solid;
   border-color: #f196b9;
 
 }
@@ -155,6 +156,7 @@ nav a:hover {
 
 #cats img{
   width: 30%;
+  border: 5px solid;
   border-color: #f196b9;
 }
 
