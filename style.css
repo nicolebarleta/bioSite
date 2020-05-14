@@ -13,6 +13,7 @@ body{
 
 img {
   border-radius: 15px;
+  
 }
 
 
@@ -115,6 +116,7 @@ nav a:hover {
 #artworks img{
   width: 30%;
   padding: 5px;
+  border-color: #f196b9;
 
 }
 
@@ -153,6 +155,7 @@ nav a:hover {
 
 #cats img{
   width: 30%;
+  border-color: #f196b9;
 }
 
 #cats h1{
