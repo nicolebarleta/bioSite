@@ -218,6 +218,14 @@ nav a:hover {
 
 /* end styles videos */
 
+#message{
+  margin: 40px;
+  padding: 50px;
+  float: left;
+  font-size: 1.5em;
+
+}
+
 
 a{
 
