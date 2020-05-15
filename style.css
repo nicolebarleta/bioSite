@@ -173,6 +173,10 @@ nav a:hover {
   color: #fa8687;
 }
 
+.kitten{
+ text-align: center;
+}
+
 /*End of cat styles*/
 
 
@@ -218,6 +222,10 @@ nav a:hover {
 
 /* end styles videos */
 
+#message h3{
+  text-align: center;
+
+}
 #message{
   margin: 40px;
   padding: 50px;
@@ -230,6 +238,11 @@ nav a:hover {
 a{
 
   text-decoration: none;
-  color: white;
+  color:#FFEEE4;
 
+}
+
+footer{
+  color: #FFEEE4;
+  text-align: center;
 }
