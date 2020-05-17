@@ -24,6 +24,7 @@ img {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 90px;
+
 }
 
 #navigation img{
@@ -74,6 +75,7 @@ nav a:hover {
   margin: 40px;
   padding: 50px;
   border: solid 5px;
+
 }
 
 #introduction img{
@@ -106,6 +108,8 @@ nav a:hover {
   margin: 40px;
   padding: 50px;
   border: solid 5px;
+
+
 }
 
 #artworks img{
@@ -142,6 +146,7 @@ nav a:hover {
   margin: 40px;
   padding: 50px;
   border: solid 5px;
+
 
 }
 
@@ -188,12 +193,8 @@ nav a:hover {
   margin: 40px;
   padding: 50px;
   border: solid 5px;
-
 }
 
-#videos img{
-  width: 30%;
-}
 
 #videos h1{
   text-align: center;
@@ -212,7 +213,6 @@ nav a:hover {
   margin-right: 150px;
 
 }
-
 
 #videos figure{
   float: left;
@@ -234,6 +234,9 @@ nav a:hover {
 
 }
 
+.mom{
+  float: right;
+}
 
 a{
 
@@ -245,4 +248,7 @@ a{
 footer{
   color: #FFEEE4;
   text-align: center;
+}
+.container{
+  width: auto;
 }
